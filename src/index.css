@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 1rem;
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+}
+
+.block {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ddd;
+  cursor: grab;
+  text-align: center;
+}
+
+.canvas {
+  flex: 1;
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.context-menu {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  z-index: 1000;
+}
